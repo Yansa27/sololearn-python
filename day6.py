@@ -1,5 +1,7 @@
 #contoh tugas anak itera
 def main():
+    bilangan = input('masukkan bilangan : ')
+    bilangan = int(bilangan)
     for i in range(10, 25) :
         prima = True
         for j in range(2, i):
