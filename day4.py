@@ -1,4 +1,7 @@
 # buat kalkulator
+from subprocess import call
+
+
 name =input("Masukkan Nama Anda : ")
 
 print("Selamat Datang " + name)
@@ -42,5 +45,9 @@ elif operasi == '4':
 else:
     print("Tidak Valid")    
 
+lagi = 'y'
+tidak = 't'
+tanya = input('Mau hitung lagi ? y/t : ')
 
-
+while tanya == 'y' :
+    call(operasi)
