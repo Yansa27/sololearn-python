@@ -44,10 +44,3 @@ elif operasi == '4':
     print(f'Hasil dari operasi {bilangan_1} / {bilangan_2} = {hasil} ')   
 else:
     print("Tidak Valid")    
-
-lagi = 'y'
-tidak = 't'
-tanya = input('Mau hitung lagi ? y/t : ')
-
-while tanya == 'y' :
-    call(operasi)
