@@ -16,4 +16,4 @@ elif nilai >= 40:
 else:
    grade = "E"
 
-print(f"Grade: %s" % grade)
+print("Grade: %s" % grade)
