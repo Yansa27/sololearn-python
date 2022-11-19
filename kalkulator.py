@@ -12,7 +12,7 @@ while perintah != 'exit' :
     if perintah != '+' and perintah != '-' and perintah != '*' and perintah != '/' :
         print('=' * 50)
         print('perintah tidak di ketahui')
-        continue
+        continue 
     a = eval(input('masukkan bilangan pertama : '))
     b = eval(input ('masukkan bilangan kedua : '))
     if perintah == '+' :
